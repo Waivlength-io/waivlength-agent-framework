@@ -1,10 +1,10 @@
-### **Waivlength Agent Framework (WAF)**
+### Waivlength Agent Framework (WAF)
 
 The **Waivlength Agent Framework (WAF)** is a comprehensive architecture for enabling autonomous agents to think, learn, and act within the Waivlength ecosystem. The framework integrates decision-making, extensibility, and learning, with a core focus on evaluating outcomes and adapting over time. Agents operate seamlessly through the **Waivlength App**, where users define high-level goals while agents autonomously determine sub-goals, evaluate progress, and optimize execution.
 
 ---
 
-### **1\. Framework Overview**
+## Framework Overview
 
 The Waivlength Agent Framework:
 
@@ -17,7 +17,7 @@ The **Waivlength App** serves as the client interface for managing spaces, defin
 
 ---
 
-### **2\. What Is the Framework?**
+## What Is the Waivlength Agent Framework?
 
 The Waivlength Agent Framework (WAF) provides:
 
@@ -30,11 +30,11 @@ The framework bridges the user-defined goals within the **Waivlength App** with 
 
 ---
 
-### **3\. Philosophy Behind Waivlength**
+## Philosophy Behind Waivlength
 
 The Waivlength Agent Framework is guided by two foundational layers:
 
-#### **1\. The Thinking Layer**
+## 1\. The Thinking Layer
 
 The thinking layer is the cognitive core of the agent. It focuses on:
 
