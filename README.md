@@ -1,8 +1,6 @@
-### Waivlength Agent Framework (WAF)
+# Waivlength Agent Framework (WAF)
 
 The **Waivlength Agent Framework (WAF)** is a comprehensive architecture for enabling autonomous agents to think, learn, and act within the Waivlength ecosystem. The framework integrates decision-making, extensibility, and learning, with a core focus on evaluating outcomes and adapting over time. Agents operate seamlessly through the **Waivlength App**, where users define high-level goals while agents autonomously determine sub-goals, evaluate progress, and optimize execution.
-
----
 
 ## Framework Overview
 
@@ -15,8 +13,6 @@ The Waivlength Agent Framework:
 
 The **Waivlength App** serves as the client interface for managing spaces, defining goals, and interacting with agent activities. All agent actions, logs, and workflows are visible and controllable through the app.
 
----
-
 ## What Is the Waivlength Agent Framework?
 
 The Waivlength Agent Framework (WAF) provides:
@@ -28,13 +24,11 @@ The Waivlength Agent Framework (WAF) provides:
 
 The framework bridges the user-defined goals within the **Waivlength App** with the agent's autonomous execution processes, ensuring continuous improvement.
 
----
-
 ## Philosophy Behind Waivlength
 
 The Waivlength Agent Framework is guided by two foundational layers:
 
-## 1\. The Thinking Layer
+### 1\. The Thinking Layer
 
 The thinking layer is the cognitive core of the agent. It focuses on:
 
@@ -42,7 +36,7 @@ The thinking layer is the cognitive core of the agent. It focuses on:
 - **Decision-Making**: Evaluating tools, predicting outcomes, and selecting optimal actions.
 - **Dynamic Adaptation**: Adjusting strategies based on feedback and changing environments.
 
-#### **2\. The Learning Layer**
+### 2\. The Learning Layer
 
 The learning layer is the framework's feedback mechanism, designed to:
 
@@ -52,9 +46,7 @@ The learning layer is the framework's feedback mechanism, designed to:
 
 These layers ensure that agents not only act but evolve, becoming more effective with each iteration.
 
----
-
-### **4\. Agent Decision-Making Loop**
+## Agent Decision-Making Loop
 
 The **Agent Decision-Making Loop** defines how agents process tasks, learn from results, and refine their actions. It includes:
 
@@ -107,11 +99,9 @@ The **Agent Decision-Making Loop** defines how agents process tasks, learn from 
 9.  **Return to Non-State**:\
     Agents complete tasks and await the next trigger.
 
----
+## Framework Components
 
-### **5\. Framework Components**
-
-#### **1\. Supervisor and Worker Agents**
+### 1\. Supervisor and Worker Agents
 
 - **Supervisor Agents**:
 
@@ -127,9 +117,7 @@ The **Agent Decision-Making Loop** defines how agents process tasks, learn from 
 
 This hierarchy ensures specialization, scalability, and efficient task execution.
 
----
-
-#### **2\. Extensions**
+### 2\. Extensions
 
 Extensions are the modular capabilities that worker agents dynamically adopt to perform tasks:
 
@@ -137,9 +125,7 @@ Extensions are the modular capabilities that worker agents dynamically adopt to 
 - **Dynamic Selection**: Agents evaluate extensions based on relevance, constraints, and historical success.
 - **Execution and Logging**: Worker agents execute tasks through extensions and log their actions for feedback and learning.
 
----
-
-#### **3\. Logging and Outcome Monitoring**
+### 3\. Logging and Outcome Monitoring
 
 The framework uses a multi-layered logging system to track and evaluate agent activities:
 
@@ -154,9 +140,7 @@ Logs allow agents to:
 - Revisit past actions to evaluate long-term success or refine strategies.
 - Use historical data to adapt to future tasks.
 
----
-
-#### **4\. Outcome Monitoring**
+### 4\. Outcome Monitoring
 
 Outcome monitoring is the core of the framework, enabling agents to:
 
@@ -170,9 +154,7 @@ For example:
 - Outcomes are flagged as pending until success or failure is determined.
 - Supervisors aggregate this data to refine high-level strategies.
 
----
-
-### **6\. Refined Agent Decision-Making Table**
+## Refined Agent Decision-Making Table
 
 | Step                          | Description                                           | Purpose                                                            |
 | ----------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ |
@@ -186,8 +168,6 @@ For example:
 | **8\. Learning and Feedback** | Updates memory and performance metrics.               | Ensures continuous improvement and smarter decisions.              |
 | **9\. Return to Non-State**   | Completes tasks and awaits the next trigger.          | Optimizes resource usage and prepares for the next action.         |
 
----
-
-### **Summary**
+## Summary
 
 The **Waivlength Agent Framework** is designed to empower autonomous agents to operate effectively and improve continuously. By combining a robust decision-making loop with advanced logging and outcome monitoring, WAF ensures agents can evaluate their actions across time, refine strategies, and align with user-defined goals. Integrated seamlessly with the Waivlength App, this framework provides a powerful tool for creating adaptable, intelligent agents.
